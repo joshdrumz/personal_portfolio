@@ -1,0 +1,77 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <style>
+    .col-sm-4 {
+      font-family: 'Raleway', sans-serif;
+    }
+  </style>
+</head>
+
+<div class="container">
+  <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="max-width: 18rem;">
+          {% load static %}
+          <img src="{% static 'main/img/github.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title heading">GitFetchRepos</h5>
+            {% comment %} <p class="card-text">{{p.project_content|safe}}</p> {% endcomment %}
+            <a href="https://joshdrumz.github.io/GitFetchRepos/" target="_blank" class="btn btn-primary my-2">Host
+              <i class="fas fa-wifi pl-1"></i>
+            </a>
+            <a href="https://github.com/joshdrumz/GitFetchRepos" target="_blank" class="btn btn-primary my-2">Code
+              <i class="fas fa-code pl-1"></i>
+            </a>
+          </div>
+        </div>
+      </div> 
+      <div class="col-sm-4">
+        <div class="card" style="max-width: 18rem;">
+          <img src="{% static 'main/img/react.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title heading">ReactWeatherApp</h5>
+            {% comment %} <p class="card-text">{{p.project_content|safe}}</p> {% endcomment %}
+            <a href="https://joshdrumz.github.io/react_weather_app/" target="_blank" class="btn btn-primary my-2">Host
+              <i class="fas fa-wifi pl-1"></i>
+            </a>
+            <a href="https://github.com/joshdrumz/react_weather_app" target="_blank" class="btn btn-primary my-2">Code
+              <i class="fas fa-code pl-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="max-width: 18rem;">
+          <img src="{% static 'main/img/django_alt2.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title heading">Personal Portfolio</h5>
+            {% comment %} <p class="card-text">{{p.project_content|safe}}</p> {% endcomment %}
+            <a href="/projects" target="_blank" class="btn btn-primary my-2">Host
+              <i class="fas fa-wifi pl-1"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-primary my-2">Code
+              <i class="fas fa-code pl-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    {% comment %} {% for p in project %}
+      <div class="col-sm-4">
+        <div class="card" style="max-width: 18rem;">
+          {% load static %}
+          <img src="{% static 'main/img/html5.png' %}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title heading">{{p.project_title}}</h5>
+            {% comment %} <p class="card-text">{{p.project_content|safe}}</p> {% endcomment %}
+            {% comment %} <a href="{{p.project_host}}" target="_blank" class="btn btn-primary my-2">Host
+              <i class="fas fa-wifi pl-1"></i>
+            </a>
+            <a href="{{p.project_code}}" target="_blank" class="btn btn-primary my-2">Code
+              <i class="fas fa-code pl-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %} {% endcomment %}
+  </div>
+</div>
