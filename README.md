@@ -1,14 +1,10 @@
 # Josh Arrants portfolio
 
-A hosted version of this project can be found [here](http://li1129-13.members.linode.com/)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+A hosted version of this project can be found [here](http://www.josharrants.com/)
 
 ## Deployment
 
-A live version of this project can be found [here](http://li1129-13.members.linode.com/)
+A live version of this project can be found [here](http://www.josharrants.com/)
 
 ## Built With
 
@@ -18,7 +14,7 @@ A live version of this project can be found [here](http://li1129-13.members.lino
 - [Fontawesome](https://fontawesome.com/) - Icons
 - [Unsplash](https://unsplash.com/) - Free coding images
 - [Linode](https://www.linode.com/) - Cloud Hosting
-- [Namecheap](https://www.namecheap.com/) - Domain
+- [Namecheap](https://www.namecheap.com/) - Domain and HTTPS
 
 ## Authors
 
